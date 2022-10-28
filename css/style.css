@@ -1,8 +1,8 @@
 /*global*/
 :root{
     --primary: rgb(43, 43, 43);
-    --text: rgb(202, 24, 60);
     --secondary: #dedede;
+    --text: rgb(202, 24, 60);
 }
 *{
     margin: 0;
@@ -12,22 +12,21 @@ body {
 }
 p {
     padding: .5rem;
-    /* font-size:1.1rem; */
-    /* line-height:2; */
-    /* margin-top:1rem; */
 }
-h2,h3 {
+h1, h2, h3 {
     margin: 1rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h1 {
     color: var(--primary);
-    text-shadow: 2px 2px 5px rgb(250, 250, 250);
+    text-shadow: 1px 1px 3px rgb(250, 250, 250);
+    text-transform: uppercase;
   }
 
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 h3 {
     font-size: 1.5rem;
@@ -56,21 +55,11 @@ h4 {
     padding:1px;
     filter: grayscale(30%);
 }
-/* .site-header p{
-    margin-top:1rem;
-    font-size:2rem;
-} */
-/* .site-header h1{
-   padding-top:1rem;
-   font-size:2rem;
-} */
 
 .header-text {
     margin-left: 10rem;
     margin-top: 1rem;
     color: var(--secondary);
-    /* margin: 1rem; */
-
 }
 .container {
     width:90%;
@@ -82,6 +71,24 @@ h4 {
     width: 100%;
     height: 50px;
     background-color: var(--primary);
+}
+
+/* icons */
+i {
+    font-size: 30px;
+    margin-left: 5px;
+}
+.fa-html5 {
+    color: blue;
+}
+.fa-css3-alt {
+    color:blueviolet;
+}
+.fa-square-js {
+    color: #EFD81D;
+}
+.fa-react {
+    color: #63DAFC;
 }
 
 /* projects */
@@ -103,13 +110,17 @@ h4 {
     border: 1px solid var(--primary);
     padding: 1rem;
     border-radius: 5px;
-    /* font-size: 1rem; */
-
 }
-
 .project img {
     width: 18rem;
-    height: 10rem;
+    height: 12rem;
+    border: .5px solid var(--primary);
+}
+.zoom {
+    transition: transform .2s;
+}
+  .zoom:hover {
+    transform: scale(1.6);
 }
 
 /* footer */
