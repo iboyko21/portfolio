@@ -92,6 +92,15 @@ i {
 .fa-react {
     color: #63DAFC;
 }
+.fa-bootstrap {
+    color: #5B397B;
+}
+.fa-node {
+    color: #7FC728;
+}
+.fa-github {
+    color: black;
+}
 
 /* projects */
 .projects-container {
