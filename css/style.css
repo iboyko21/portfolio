@@ -2,7 +2,7 @@
 :root {
     --primary: rgb(43, 43, 43);
     --secondary: #dedede;
-    --text: rgb(202, 24, 60);
+    --text: rgb(180, 88, 106);
 }
 * {
     margin: 0;
@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 h1 {
     color: var(--primary);
-    text-shadow: 1px 1px 3px var(--secondary);
+    text-shadow: 3px -3px 2px var(--secondary);
     text-transform: uppercase;
     text-align: center;
     font-size: 2.5rem;
